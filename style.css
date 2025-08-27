@@ -1,0 +1,57 @@
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 30px;
+    margin: 30px 0px;
+}
+
+.searchput {
+    width: 400px;
+    height: 25px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.dark {
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border: 2px solid white;
+}
+
+.light {
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid black;
+}
+
+
+
+.card {
+    width: 250px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+}
